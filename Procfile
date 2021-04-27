@@ -1,1 +1,1 @@
-BotzHub: python -m TelethonBot
+Ryo Star: python -m TelethonBot
