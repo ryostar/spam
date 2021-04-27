@@ -13,7 +13,8 @@ async def start(event):
 
 @RyoStar.on(events.NewMessage(incoming=True, pattern="start"))
 async def start(event):
-    await event.reply("SHARE ANH EM 2 GROUP NGON 🐰❤❤!",
+text = 'test'
+    await event.reply("text",
                     buttons=[
                         [Button.url("NHÓM CỦA NẮNG ❤", url="https://t.me/nhomcuanang"),Button.url("NHÓM CỦA NẮNG ❤", url="https://t.me/nhomcuanang")],
                         [Button.url("KÊNH CỦA NẮNG 🌞",url="https://t.me/kenhcuanang")]
