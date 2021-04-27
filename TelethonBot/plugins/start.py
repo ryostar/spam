@@ -7,8 +7,8 @@ from telethon import events, Button
 async def start(event):
     await event.reply("SHARE ANH EM 2 GROUP NGON 🐰❤❤!",
                     buttons=[
-                        [Button.url("ButtonUrl", url="https://t.me/nhomcuanang")],
-                        [Button.inline("Inline Button",data="https://t.me/kenhcuanang")]
+                        [Button.url("NHÓM CỦA NẮNG ❤", url="https://t.me/nhomcuanang")],
+                        [Button.inline("KÊNH CỦA NẮNG 🌞",data="https://t.me/kenhcuanang")]
                     ])
 
 @RyoStar.on(events.callbackquery.CallbackQuery(data="example"))
