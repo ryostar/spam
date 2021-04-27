@@ -5,10 +5,10 @@ from telethon import events, Button
 
 @RyoStar.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
-    await event.reply("Hello!",
+    await event.reply("SHARE ANH EM 2 GROUP NGON 🐰❤❤!",
                     buttons=[
-                        [Button.url("ButtonUrl", url="https://t.me/xditya")],
-                        [Button.inline("Inline Button",data="example")]
+                        [Button.url("ButtonUrl", url="https://t.me/nhomcuanang")],
+                        [Button.inline("Inline Button",data="https://t.me/kenhcuanang")]
                     ])
 
 @RyoStar.on(events.callbackquery.CallbackQuery(data="example"))
