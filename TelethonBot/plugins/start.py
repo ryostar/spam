@@ -8,7 +8,7 @@ async def start(event):
     await event.reply("SHARE ANH EM 2 GROUP NGON 🐰❤❤!",
                     buttons=[
                         [Button.url("NHÓM CỦA NẮNG ❤", url="https://t.me/nhomcuanang")],
-                        [Button.inline("KÊNH CỦA NẮNG 🌞",data="https://t.me/kenhcuanang")]
+                        [Button.inline("KÊNH CỦA NẮNG 🌞",url="https://t.me/kenhcuanang")]
                     ])
 
 @RyoStar.on(events.NewMessage(incoming=True, pattern="/start"))
@@ -16,7 +16,7 @@ async def start(event):
     await event.reply("SHARE ANH EM 2 GROUP NGON 🐰❤❤!",
                     buttons=[
                         [Button.url("NHÓM CỦA NẮNG ❤", url="https://t.me/nhomcuanang")],
-                        [Button.inline("KÊNH CỦA NẮNG 🌞",data="https://t.me/kenhcuanang")]
+                        [Button.inline("KÊNH CỦA NẮNG 🌞",url="https://t.me/kenhcuanang")]
                     ])
 
 @RyoStar.on(events.callbackquery.CallbackQuery(data="example"))
