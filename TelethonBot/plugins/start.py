@@ -5,8 +5,8 @@ from telethon import events, Button
 
 @RyoStar.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
-    await event.reply("EVENT GROUP LIVE FREE\n!❤🤒😭🎀🤨😍🐰❤!\n\nNữ Sinh - IDOL - Đủ Thể Loại - 2K => 2k3 - SOME - MÓC BƯỚM - GIAO LƯU - NHÀ NGHỈ 🤟\n\n♯ Xem hướng dẫn: [BẤM VÀO ĐÂY](http://bit.ly/3dYTXJr)\n\nCó Bán Vé Vip LIVE ZALO 🤘
-༻@Ryo_Star༺",
+    await event.reply("EVENT GROUP LIVE FREE\n!❤🤒😭🎀🤨😍🐰❤!\n\nNữ Sinh - IDOL - Đủ Thể Loại - 2K => 2k3 - SOME - MÓC BƯỚM - GIAO LƯU - NHÀ NGHỈ 🤟\n\n♯ Xem hướng dẫn: [BẤM VÀO ĐÂY](http://bit.ly/3dYTXJr)\n\n +
+Có Bán Vé Vip LIVE ZALO 🤘 ༻@Ryo_Star༺",
                     buttons=[
                         [Button.url("ıllıllı BẤM NÚT PHÍA DƯỚI ıllıllı", url="http://t.me/hoptacxa0")],
 [Button.url("PHÒNG LIVE MỐC BÍM SỐ 1 🎬 ",url="http://bit.ly/3u34kRW")],
