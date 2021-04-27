@@ -5,9 +5,12 @@ from telethon import events, Button
 
 @RyoStar.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
-    await event.reply("👌❤❤😢🤖❤\nTẢI APP XEM LIVE MIỄN PHÍ\n📜❤🤒😭🤨😍🐰❤!\n\n• Tải app [HOTLIVE32.COM](HOTLIVE32.COM)\n• Tải app [MMLIVE](mm636.vip)\n• Tải app [QQLIVE](http://WWW.QQL849.COM) \n\n CHỈ CẦN NẠP 20K LÀ VÔ ĐƯỢC PHÒNG VIP BAO PHÊ ❤❤❤🔞🔞",
+    await event.reply("EVENT GROUP LIVE FREE\n!❤🤒😭🎀🤨😍🐰❤!\n\nNữ Sinh - IDOL - Đủ Thể Loại - 2K => 2k3 - SOME - MÓC BƯỚM - GIAO LƯU - NHÀ NGHỈ 🤟\n\n♯ Xem hướng dẫn: [BẤM VÀO ĐÂY](http://bit.ly/3dYTXJr)\n\nCó Bán Vé Vip LIVE ZALO 🤘
+༻@Ryo_Star༺",
                     buttons=[
-                        [Button.url("Tải ngay HOTLIVE32.COM ❤", url="hotlive32.com")],
-[Button.url("Tải ngay MM636.VIP 🔞",url="mm636.vip")],
-                        [Button.url("Tải ngay QQL849.COM 🔞",url="QQL849.COM")]
+                        [Button.url("ıllıllı BẤM NÚT PHÍA DƯỚI ıllıllı", url="http://t.me/hoptacxa0")],
+[Button.url("PHÒNG LIVE MỐC BÍM SỐ 1 🎬 ",url="http://bit.ly/3u34kRW")],
+                        [Button.url("PHÒNG LIVE ẸT ẸT SOME SỐ 2 🎬",url="http://bit.ly/3sWInCE")],
+[Button.url("PHÒNG LIVE TÂM SỰ SỐ 3 🎬",url="http://bit.ly/3x2JVhW")],
+[Button.url("SÉT KÈO IDOL CALL UY TÍN🔞",url="http://t.me/joinchat/HFMeDVI4K_czMjBl")]
                     ])
