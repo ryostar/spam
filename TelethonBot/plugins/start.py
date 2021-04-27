@@ -11,15 +11,6 @@ async def start(event):
                         [Button.url("XEM VIDEO HOT TẠI ĐÂY 🔞",url="https://t.me/Hoahoantu_bot?startgroup=start")]
                     ])
 
-@RyoStar.on(events.NewMessage(incoming=True, pattern="start"))
-async def start(event):
-text = 'test'
-    await event.reply("text",
-                    buttons=[
-                        [Button.url("NHÓM CỦA NẮNG ❤", url="https://t.me/nhomcuanang"),Button.url("NHÓM CỦA NẮNG ❤", url="https://t.me/nhomcuanang")],
-                        [Button.url("KÊNH CỦA NẮNG 🌞",url="https://t.me/kenhcuanang")]
-                    ])
-
-@RyoStar.on(events.callbackquery.CallbackQuery(data="example"))
-async def ex(event):
-    await event.edit("You clicked a button!")
+# @RyoStar.on(events.callbackquery.CallbackQuery(data="example"))
+# async def ex(event):
+#    await event.edit("You clicked a button!")
