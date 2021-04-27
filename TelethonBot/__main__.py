@@ -5,7 +5,7 @@ import glob
 from pathlib import Path
 from TelethonBot.utils import load_plugins
 import logging
-from . import BotzHub
+from . import RyoStar
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
@@ -22,4 +22,4 @@ print("Successfully deployed!")
 print("Enjoy! Do visit @BotzHub")
 
 if __name__ == "__main__":
-    BotzHub.run_until_disconnected()
+    RyoStar.run_until_disconnected()
