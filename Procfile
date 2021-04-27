@@ -1,1 +1,1 @@
-Ryo Star: python -m TelethonBot
+RyoStar: python -m TelethonBot
