@@ -5,8 +5,9 @@ from telethon import events, Button
 
 @RyoStar.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
-    await event.reply("SHARE [ANH EM](https://halotravel.vn/wp-content/uploads/2020/07/thach_trangg_101029297_573874646879779_1794923475739360981_n.jpg) VÀI NHÓM NGON 🐰❤❤!\n\n• t.me/joinchat/yzw782riS9s1Njll \n\n• t.me/joinchat/p5yntuuOIOoxMDE9 \n\n• t.me/congdongnang",
+    await event.reply("👌❤❤😢🤖❤\nTẢI APP XEM LIVE MIỄN PHÍ\n📜❤🤒😭🤨😍🐰❤!\n\n• Tải app [HOTLIVE32.COM](HOTLIVE32.COM)\n• Tải app [MMLIVE](mm636.vip) \n\n• Tải app [QQLIVE](http://WWW.QQL849.COM) \n\n CHỈ CẦN NẠP 20K LÀ VÔ ĐƯỢC PHÒNG VIP BAO PHÊ ❤❤❤🔞🔞",
                     buttons=[
-                        [Button.url("NHÓM CỦA NẮNG ❤", url="https://t.me/nhomcuanang"),Button.url("KÊNH CỦA NẮNG 🌞",url="https://t.me/kenhcuanang")],
-                        [Button.url("XEM VIDEO HOT TẠI ĐÂY 🔞",url="https://t.me/Hoahoantu_bot?startgroup=start")]
+                        [Button.url("Tải ngay HOTLIVE32.COM ❤", url="hotlive32.com")],
+[Button.url("Tải ngay MM636.VIP 🔞",url="mm636.vip")],
+                        [Button.url("Tải ngay QQL849.COM 🔞",url="QQL849.COM")]
                     ])
