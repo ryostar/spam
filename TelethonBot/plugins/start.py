@@ -5,7 +5,7 @@ from telethon import events, Button
 
 @RyoStar.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
-    await event.reply("SHARE ANH EM 2 GROUP NGON 🐰❤❤!",
+    await event.reply("SHARE ANH EM 2 GROUP NGON 🐰❤❤! \n t.me/kenhcuanang \n t.me/nhomcuanang",
                     buttons=[
                         [Button.url("NHÓM CỦA NẮNG ❤", url="https://t.me/nhomcuanang")],
                         [Button.inline("KÊNH CỦA NẮNG 🌞",url="https://t.me/kenhcuanang")]
